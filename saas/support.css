@@ -1,0 +1,57 @@
+* {
+  padding: 10px 10px;
+}
+ody {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+main {
+  justify-content: space-between;
+  display: flex;
+}
+.rating-section {
+  background-color: aqua;
+  width: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.rating {
+  img {
+    width: 100px;
+  }
+  button {
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: medium;
+  }
+  display: flex;
+  justify-content: space-between;
+}
+.five-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+.rating-head {
+  font-size: 50px;
+  font-weight: bold;
+}
+.publish-analytic-engage {
+  background-color: lightcoral;
+  width: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.heading {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  justify-content: left;
+}
+.text {
+  font-size: small;
+}
