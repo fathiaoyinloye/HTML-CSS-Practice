@@ -1,15 +1,14 @@
 * {
   padding: 10px 10px;
 }
-ody {
+body {
   max-width: 1440px;
-  display: flex;
   justify-content: center;
 }
 main {
-  justify-content: space-between;
   display: flex;
 }
+
 .rating-section {
   background-color: aqua;
   width: 500px;
@@ -55,3 +54,8 @@ main {
 .text {
   font-size: small;
 }
+.box {
+  margin: 0;
+  margin-bottom: 0;
+}
+

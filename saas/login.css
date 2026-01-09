@@ -1,0 +1,29 @@
+body {
+  background-color: #161c28;
+  color: #a6a6a6;
+  padding: 5% 5%;
+}
+.upper-box {
+  display: flex;
+}
+.left-upperbox {
+  img {
+    width: 5%;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    color: #a6a6a6;
+  }
+  width: 612px;
+  height: 588px;
+}
+
+.right-upperbox {
+  background-color: black;
+  width: 612px;
+  height: 588px;
+}
+.left-images {
+  width: 1000px;
+}

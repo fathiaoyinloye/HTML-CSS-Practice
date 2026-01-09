@@ -15,9 +15,10 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: cornsilk;
+  padding-bottom: 40px;
+  background: linear-gradient(to bottom right, #dcefec, #fff);
 }
+
 header {
   display: flex;
   align-items: center;
@@ -50,7 +51,7 @@ button {
 .hero-section {
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   align-items: center;
   gap: 10px;
 }
@@ -60,7 +61,7 @@ button {
   flex-direction: column;
   gap: 10px;
   width: 50%;
-  font-size: 40px;
+  font-size: 35px;
 }
 .hero-img {
   width: 50%;
@@ -71,31 +72,154 @@ button {
   }
 }
 .sub-text {
-  font-size: 17px;
-  width: 60%;
-  height: 13%;
+  font-size: 16px;
+  width: 80%;
+  font-weight: 600;
 }
 .trial {
   background-color: #54bd95;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 30%;
-  height: 30px;
+  padding: 10px;
 }
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  gap: 48px;
+  align-items: center;
   padding: 0px 20px; /* top and bottom 0px left and right 20px */
+  margin-bottom: 30px;
 }
-footer a button {
-  font-size: 30px;
-  color: #a6a6a6;
-}
+
 .view-demo {
   display: flex;
+  gap: 5px;
   img {
     width: 30px;
   }
 }
 .hero-button {
   display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.subHero-section {
+  font-size: 20px;
+}
+
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  a {
+    display: flex;
+    gap: 5px;
+    img {
+      width: 100%;
+      height: 20px;
+    }
+  }
+}
+/* Product Section */
+.product {
+  display: flex;
+  gap: 30px;
+  padding: 50px 0px;
+}
+.rating-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.rating {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  img {
+    width: 100px;
+  }
+  button {
+    align-self: flex-start;
+    color: gray;
+    font-size: medium;
+  }
+}
+.five-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.rating-head {
+  font-size: 40px;
+  font-weight: bold;
+  width: 70%;
+}
+.publish-analytic-engage {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  width: 80%;
+}
+.box div {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  p {
+    line-height: 30px;
+  }
+}
+/* About Us Section */
+.aboutUs-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin:30px 0px;
+}
+.aboutUs-section h2{
+  font-size: 40px;
+
+  text-align: center;
+  span{
+    display: block;
+  }
+}
+.aboutUs-section p{
+  font-size: 18px;
+}
+.bill{
+  display: flex;
+  flex-direction: column;
+}
+.bill-button{
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.bill-button button{
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.bill-yearly{
+  background-color: #54bd95;
+  color: #fff;
 }
