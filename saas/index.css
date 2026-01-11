@@ -126,6 +126,7 @@ footer div {
   display: flex;
   gap: 30px;
   padding: 50px 0px;
+  background-color: #f9f8fe;
 }
 .rating-section {
   display: flex;
@@ -184,42 +185,270 @@ footer div {
     line-height: 30px;
   }
 }
+/* faq Section */
+.faqTop {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px;
+  gap: 40px;
+  align-items: center;
+  button {
+    background-color: #54bd95;
+    width: 150px;
+    border-radius: 10px;
+    height: 30px;
+  }
+  h1 {
+    font-size: 40px;
+    width: 300px;
+  }
+  p {
+    width: 400px;
+    color: #a6a6a6;
+  }
+}
+.faqBottom {
+  display: flex;
+  margin: 20px 10px;
+  background-color: #f9f8fe;
+  padding-bottom: 20px;
+  h2 {
+    margin-bottom: 10px;
+  }
+  p {
+    color: #a6a6a6;
+    width: 200px;
+  }
+}
+.subFaq {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+/* Blog Section */
+
+.blogSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
+  p {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+}
+
 /* About Us Section */
-.aboutUs-section{
+.aboutUs-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  margin:30px 0px;
+  margin: 30px 0px;
 }
-.aboutUs-section h2{
+.aboutUs-section h2 {
   font-size: 40px;
-
   text-align: center;
-  span{
+  span {
     display: block;
   }
 }
-.aboutUs-section p{
+.subAbout {
+  color: #a6a6a6;
+}
+
+.aboutUs-section p {
   font-size: 18px;
 }
-.bill{
+.bill {
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
-.bill-button{
+.bill-button {
   background: #fff;
   padding: 5px;
   border-radius: 5px;
-  
 }
-.bill-button button{
+.bill-button button {
   padding: 15px 40px;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 14px;
 }
-.bill-yearly{
+.bill-yearly {
   background-color: #54bd95;
   color: #fff;
+}
+.billPlan {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.subPlanSection {
+  background-color: white;
+  padding: 25px;
+  flex: 1;
+  border-radius: 15px;
+}
+.subPlan {
+  text-align: center;
+  padding: 5px 30px;
+
+  h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+}
+.value {
+  margin-top: 5px;
+
+  span {
+    font-size: 30px;
+    margin-left: 2px;
+  }
+  sup {
+    font-size: 18px;
+    color: #a6a6a6;
+  }
+}
+
+.subPlanList {
+  background-color: #f9fafb;
+  padding: 25px;
+  border-radius: 15px;
+  p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+    img {
+      align-self: flex-start;
+    }
+  }
+}
+.planButton {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+}
+.middleSubPlanSection {
+  background-color: #54bd95;
+  height: 530px;
+}
+.middleButton {
+  background-color: #54bd95;
+}
+/* Review */
+
+.reviewSection {
+  background-color: #161c28;
+  color: #a6a6a6;
+  padding-top: 20px;
+  padding: 5% 5%;
+  footer{
+    display: flex;
+    padding: 0px 0px;
+    
+  }
+}
+
+.upperReviewSection {
+  display: flex;
+  gap: 30px;
+}
+
+.leftUpperBox {
+  width: 35%;
+  padding: 10px 20px;
+
+  h1 {
+    color: #ffffff;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: 30px;
+  }
+  p {
+    padding-bottom: 15px;
+  }
+  img {
+    width: 7%;
+    height: 7%;
+    padding-bottom: 15px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    color: #a6a6a6;
+  }
+}
+
+.right-upperbox {
+  background-color: #222938;
+  padding: 5% 5%;
+
+  button {
+    background-color: #54bd95;
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+  }
+}
+.left-images {
+  width: 1000px;
+}
+.getStarted {
+  padding-bottom: 10%;
+  p {
+    font-size: large;
+    font-weight: 150px;
+    color: #ffffff;
+  }
+
+  img {
+    padding-bottom: 10px;
+  }
+}
+.getMessage {
+  label {
+    color: #f9fafb;
+    font-weight: 20px;
+  }
+  input {
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+  }
+}
+.reviewBottom {
+  display: flex;
+  padding: 20px 20px;
+  padding-top: 50px;
+
+}
+.bottomRight{
+  display: flex;
+  
+
+
+}
+.subBottomRight{
+  padding-left: 30px;
+  h4{
+    font-weight: 50px;
+    padding-bottom: 10px;
+  }
+  p{
+    padding-bottom: 10px;
+  }
 }
