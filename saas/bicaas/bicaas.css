@@ -1,32 +1,41 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+  height: 100vh;
+  background-color: rgb(240, 255, 246);
+  padding: 25px 25px;
+  margin-left: 22px;
+  header {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
 }
+
 .logo {
   color: #54bd95;
+  font-size: 40px;
 }
-/* body {
-  max-width: 1440px;
-
-} */
 
 .nav {
   display: flex;
   align-items: center;
-  width: 65%;
   justify-content: space-between;
 }
 nav a {
   text-decoration: none;
   margin-right: 3rem;
-  font-size: 18px;
+  font-size: 25px;
   color: black;
+}
+.leftNavigator {
+  button {
+    font-size: 20px;
+  }
 }
 button {
   border: none;
   background-color: transparent;
 }
+
 .signup {
   background-color: #54bd95;
   padding: 10px;
@@ -48,17 +57,20 @@ button {
   gap: 10px;
   width: 50%;
   font-size: 35px;
+  img {
+    width: 800px;
+  }
 }
 .hero-img {
-  width: 50%;
+  width: 20%;
   img {
-    width: 100%;
+    width: 200%;
     height: 100%;
     object-fit: contain;
   }
 }
 .sub-text {
-  font-size: 16px;
+  font-size: 22px;
   width: 80%;
   font-weight: 600;
 }
@@ -67,6 +79,7 @@ button {
   border-radius: 20px;
   width: 30%;
   padding: 10px;
+  font-size: 20px;
 }
 footer {
   display: flex;
@@ -81,6 +94,9 @@ footer {
 .view-demo {
   display: flex;
   gap: 5px;
+  button {
+    font-size: 20px;
+  }
   img {
     width: 30px;
   }
@@ -92,6 +108,16 @@ footer {
 }
 .subHero-section {
   font-size: 20px;
+  h2 {
+    font-size: 40px;
+  }
+  div {
+    a {
+      img {
+        width: 2000px;
+      }
+    }
+  }
 }
 
 footer div {
@@ -106,6 +132,9 @@ footer div {
       height: 20px;
     }
   }
+}
+.imgSub {
+  width: 200px;
 }
 /* Product Section */
 .product {
@@ -138,14 +167,25 @@ footer div {
 .five-rating {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   margin: 0;
   padding: 0;
+  img {
+    width: 210px;
+  }
+  p {
+    font-size: 30px;
+  }
+  button {
+    font-size: 25px;
+  }
 }
 .rating-head {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: bold;
   width: 70%;
+}
+.subRatingHead {
+  font-size: 35px;
 }
 .publish-analytic-engage {
   display: flex;
@@ -158,20 +198,32 @@ footer div {
 }
 
 .box {
-  display: flex;
-  gap: 10px;
   align-items: flex-start;
-  width: 80%;
-}
-.box div {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
   p {
-    line-height: 30px;
+    /* line-height: 30px; */
+    font-size: 30px;
   }
 }
+.box div {
+  display: flex;
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+.imgBox {
+  display: flex;
+
+  img {
+    width: 20px;
+  }
+}
+
 /* faq Section */
+.faq-section {
+  padding: 20px 20px;
+}
 .faqTop {
   display: flex;
   justify-content: flex-start;
@@ -180,22 +232,23 @@ footer div {
   align-items: center;
   button {
     background-color: #54bd95;
-    width: 150px;
-    border-radius: 10px;
-    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    height: 40px;
   }
   h1 {
-    font-size: 40px;
-    width: 300px;
+    font-size: 70px;
+    width: 33%;
   }
   p {
-    width: 400px;
+    width: 33%;
     color: #a6a6a6;
+    font-size: 30px;
   }
 }
 .faqBottom {
   display: flex;
-  margin: 20px 10px;
+  margin: 40px 20px;
   background-color: #f9f8fe;
   padding-bottom: 20px;
   h2 {
@@ -203,13 +256,17 @@ footer div {
   }
   p {
     color: #a6a6a6;
-    width: 200px;
+    font-size: 50px;
   }
 }
 .subFaq {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  width: 30%;
+  p {
+    font-size: 30px;
+  }
 }
 /* Blog Section */
 
@@ -220,14 +277,13 @@ footer div {
   align-items: center;
   h1 {
     padding-bottom: 20px;
-    font-size: 40px;
+    font-size: 70px;
   }
   p {
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 10px;
   }
 }
-
 /* About Us Section */
 .aboutUs-section {
   display: flex;
@@ -238,7 +294,7 @@ footer div {
   margin: 30px 0px;
 }
 .aboutUs-section h2 {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   span {
     display: block;
@@ -246,6 +302,7 @@ footer div {
 }
 .subAbout {
   color: #a6a6a6;
+  font-weight: 800;
 }
 
 .aboutUs-section p {
@@ -266,7 +323,7 @@ footer div {
 .bill-button button {
   padding: 15px 40px;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 20px;
 }
 .bill-yearly {
   background-color: #54bd95;
@@ -336,41 +393,40 @@ footer div {
   background-color: #54bd95;
 }
 /* Review */
-
 .reviewSection {
   background-color: #161c28;
   color: #a6a6a6;
   padding-top: 20px;
   padding: 5% 5%;
-  footer{
+  footer {
     display: flex;
     padding: 0px 0px;
-    
   }
 }
 
 .upperReviewSection {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 
 .leftUpperBox {
-  width: 35%;
-  padding: 10px 20px;
+  width: 45%;
+  padding: 20px 30px;
 
   h1 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 60px;
     padding-bottom: 10px;
     font-weight: 30px;
   }
   p {
     padding-bottom: 15px;
+    font-size: 20px;
   }
   img {
-    width: 7%;
-    height: 7%;
-    padding-bottom: 15px;
+    width: 10%;
+    height: 10%;
+    padding-bottom: 20px;
   }
   button {
     background-color: transparent;
@@ -380,61 +436,80 @@ footer div {
 }
 
 .right-upperbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border-radius: 20px;
   background-color: #222938;
   padding: 5% 5%;
-
+  justify-content: space-between;
   button {
     background-color: #54bd95;
-    width: 250px;
-    border-radius: 10px;
-    height: 30px;
+    width: 315px;
+    border-radius: 15px;
+    height: 60px;
   }
-}
-.left-images {
-  width: 1000px;
-}
-.getStarted {
-  padding-bottom: 10%;
-  p {
-    font-size: large;
-    font-weight: 150px;
-    color: #ffffff;
-  }
-
   img {
-    padding-bottom: 10px;
-  }
-}
-.getMessage {
-  label {
-    color: #f9fafb;
-    font-weight: 20px;
+    width: 100px;
   }
   input {
-    width: 250px;
-    border-radius: 10px;
-    height: 50px;
+    padding: 2% 10%;
+    font-size: 20px;
   }
-}
-.reviewBottom {
-  display: flex;
-  padding: 20px 20px;
-  padding-top: 50px;
-
-}
-.bottomRight{
-  display: flex;
-  
-
-
-}
-.subBottomRight{
-  padding-left: 30px;
-  h4{
-    font-weight: 50px;
-    padding-bottom: 10px;
+  .left-images {
+    width: 1050px;
+    align-items: center;
   }
-  p{
-    padding-bottom: 10px;
+  .getStarted {
+    padding-bottom: 10%;
+    p {
+      font-size: large;
+      font-weight: 150px;
+      color: #ffffff;
+    }
+
+    img {
+      padding-bottom: 10px;
+      width: 20%;
+    }
+  }
+  .getMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    label {
+      color: #f9fafb;
+      font-weight: 20px;
+    }
+    input {
+      width: 250px;
+      border-radius: 10px;
+      height: 50px;
+    }
+  }
+  .reviewBottom {
+    display: flex;
+    padding: 20px 20px;
+    padding-top: 50px;
+  }
+  .bottomRight {
+    display: flex;
+  }
+
+  .reviewBottomSection{
+    display: flex;
+    display: inline-block;
+  }
+  .subBottomRight {
+    padding-left: 30px;
+    h4 {
+      font-weight: 50px;
+      padding-bottom: 10px;
+    }
+    p {
+      padding-bottom: 10px;
+    }
   }
 }
