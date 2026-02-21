@@ -7,84 +7,104 @@
     <link rel="stylesheet" href="./bicaas.css" />
   </head>
   <body>
-    <header>
+    <div class="Navbar">
       <h1 class="logo">Biccas</h1>
       <div class="nav">
-        <nav>
-          <a href="">Home</a>
-          <a href="">Product</a>
-          <a href="">FAQ</a>
-          <a href="">Blog</a>
-          <a href="">About Us</a>
-        </nav>
-        <div class="leftNavigator">
-          <button>Login</button>
-          <button class="signup">Sign Up</button>
-        </div>
+        <a href="">Home</a>
+        <a href="">Product</a>
+        <a href="">FAQ</a>
+        <a href="">Blog</a>
+        <a href="">About Us</a>
       </div>
-    </header>
+      <div class="leftNavigator">
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
+      </div>
+    </div>
 
     <main>
       <!-- Home section -->
       <section class="home">
         <section class="hero-section">
           <div class="hero-text">
-            <h1>We&apos;re here to Increase your Productivity</h1>
-            <img src="/saas/assets/Vector 32.png" alt="line" />
-            <p class="sub-text">
-              Let's make your work more organize and easily using the Taskio
-              Dashboard with many of the latest featuresin managing work every
-              day.
-            </p>
-            <div class="hero-button">
-              <button class="trial">Try free trial</button>
-              <div class="view-demo">
-                <img src="/saas/assets/Play.png" alt="" /><button class="demo">
-                  View Demo
-                </button>
-              </div>
+            <h1>
+              We're here to Increase your Productivity
+            </h1>
+            <div class="deco">
+                <img src="/saas/assets/Vector 32.png" alt="Decorative underline" />
             </div>
+
+            <p class="sub-text">
+              Let's make your work more organized and easily using <br>the Taskio
+              Dashboard with many of the latest <br>featuresin managing work every day.
+            </p>
           </div>
           <div class="hero-img">
-            <img src="/saas/assets/Group 138.png" alt="hero-img" />
+            <img
+              src="/saas/assets/Group 138.png"
+              alt="Taskio dashboard preview"
+            />
           </div>
         </section>
-        <footer>
-          <section class="subHero-section">
+
+
+            <div class="hero-button">
+              <button class="trial">Try free trial</button>
+
+              <div class="view-demo">
+                <img src="/saas/assets/Play.png" alt="Play icon" />
+                <button class="demo">View Demo</button>
+              </div>
+            </div>
+            
+        </section>
+
+         <div class="subHero-section">
             <h2>More than 25,000 teams use Collabs</h2>
-          </section>
-          <div>
+         </div>
+
+          <div class="brand-logos">
             <a
               href="https://unsplash.com/"
-              alt="unsplash website"
               class="imgSub"
+              aria-label="Unsplash"
             >
-              <img src="/saas/assets/Group 141.png" alt="" />
+              <img src="/saas/assets/Group 141.png" alt="Unsplash logo" />
             </a>
 
-            <a href="https://www.notion.com/" alt="notion" class="imgSub">
-              <img src="/saas/assets/Group 142.png" alt="" />
-            </a>
-            <a href="https://www.intercom.com/" alt="intercom" class="imgSub">
-              <img src="/saas/assets/Group 144.png" alt="" />
-            </a>
             <a
-              href="https://www.descript.com/?pscd=get.descript.com&ps_partner_key=c2VtYW50aWNsYWJz&sid=1-g-Cj0KCQiAvOjKBhC9ARIsAFvz5ljs3vE5DsF-lSK_Tbs2q10voEH6vFw358iiSklKGBcSj_Yli6Ob1rUaAgV3EALw_wcB&gad_source=1&gad_campaignid=21950349048&gbraid=0AAAAA-f202_8YN16xnDg4PtihBUVtxg9a&gclid=Cj0KCQiAvOjKBhC9ARIsAFvz5ljs3vE5DsF-lSK_Tbs2q10voEH6vFw358iiSklKGBcSj_Yli6Ob1rUaAgV3EALw_wcB&ps_xid=mhn1aqbQvwXr5p&gsxid=mhn1aqbQvwXr5p&gspk=c2VtYW50aWNsYWJz"
-              alt="descript"
+              href="https://www.notion.com/"
               class="imgSub"
+              aria-label="Notion"
             >
-              <img src="/saas/assets/Group 145.png" alt="" />
+              <img src="/saas/assets/Group 142.png" alt="Notion logo" />
             </a>
+
+            <a
+              href="https://www.intercom.com/"
+              class="imgSub"
+              aria-label="Intercom"
+            >
+              <img src="/saas/assets/Group 144.png" alt="Intercom logo" />
+            </a>
+
+            <a
+              href="https://www.descript.com/"
+              class="imgSub"
+              aria-label="Descript"
+            >
+              <img src="/saas/assets/Group 145.png" alt="Descript logo" />
+            </a>
+
             <a
               href="https://www.grammarly.com/"
-              alt="grammerly"
               class="imgSub grammarly"
+              aria-label="Grammarly"
             >
-              <img src="/saas/assets/Group 146.png" alt="" />
+              <img src="/saas/assets/Group 146.png" alt="Grammarly logo" />
             </a>
           </div>
-        </footer>
-      </section>
+
       <!-- Product Section -->
       <section class="product">
         <section class="rating-section">
@@ -215,18 +235,23 @@
                 <p class="value"><sup>$</sup><span>0</span></p>
               </div>
               <div class="subPlanList">
-                <p><img src="/saas/assets/Subtract.png" alt="Subtract" />2 Users</p>
-                <p><img src="/saas/assets/Subtract.png" alt="Subtract" />2 Files</p>
                 <p>
-                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Public Share
-                  & Comments
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />2 Users
                 </p>
                 <p>
-                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Chat Support
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />2 Files
                 </p>
                 <p>
-                  <img src="/saas/assets/Subtract.png" alt="Subtract" />New income
-                  apps
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Public
+                  Share & Comments
+                </p>
+                <p>
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Chat
+                  Support
+                </p>
+                <p>
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />New
+                  income apps
                 </p>
                 <button class="planButton">Signup for free</button>
               </div>
@@ -238,21 +263,25 @@
                 <p class="value"><sup>$</sup> <span>8</span></p>
               </div>
               <div class="subPlanList">
-                <p><img src="/saas/assets/Subtract.png" alt="Subtract" />4 Users</p>
+                <p>
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />4 Users
+                </p>
                 <p>
                   <img src="/saas/assets/Subtract.png" alt="Subtract" />All apps
                 </p>
                 <p>
-                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Unlimited
-                  editable exports
+                  <img
+                    src="/saas/assets/Subtract.png"
+                    alt="Subtract"
+                  />Unlimited editable exports
                 </p>
                 <p>
-                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Folders and
-                  collaboration
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />Folders
+                  and collaboration
                 </p>
                 <p>
-                  <img src="/saas/assets/Subtract.png" alt="Subtract" />All incoming
-                  apps
+                  <img src="/saas/assets/Subtract.png" alt="Subtract" />All
+                  incoming apps
                 </p>
                 <button class="planButton middleButton">Go to pro</button>
               </div>
@@ -295,83 +324,81 @@
         </section>
       </section>
       <!-- Review -->
-       <section class="reviewSection">
-          <section class="upperReviewSection">
-            <section class="leftUpperBox">
-              <h1>People are Saying About Do With</h1>
-              <p>
-                Everything you need to accept to payment and grow your money of
-                manage anywhere on planet
-              </p>
-              <img src="/saas/assets/Group 212.png" alt="logo" />
-              <p>
-                I am very helped by this E-wallet application , my days are very
-                easy to use this application and its very helpful in my life ,
-                even I can pay a short time 😍
-              </p>
-              <button>-Aria Zinavrio</button>
-              <p></p>
-              <div class="left-images">
-                <img src="/saas/assets/Ellipse 54.png" alt="" />
-                <img src="/saas/assets/Ellipse 55.png" alt="andrea piacuiado" />
-                <img src="/saas/assets/Ellipse 56.png" alt="italo-melo" />
-                <img src="/saas/assets/Ellipse 57.png" alt="stefan-stefancik" />
-                <img src="/saas/assets/Group 215.png" alt="play logo" />
-              </div>
-            </section>
+      <section class="reviewSection">
+        <section class="upperReviewSection">
+          <section class="leftUpperBox">
+            <h1>People are Saying About Do With</h1>
+            <p>
+              Everything you need to accept to payment and grow your money of
+              manage anywhere on planet
+            </p>
+            <img src="/saas/assets/Group 212.png" alt="logo" />
+            <p>
+              I am very helped by this E-wallet application , my days are very
+              easy to use this application and its very helpful in my life ,
+              even I can pay a short time 😍
+            </p>
+            <button>-Aria Zinavrio</button>
+            <p></p>
+            <div class="left-images">
+              <img src="/saas/assets/Ellipse 54.png" alt="" />
+              <img src="/saas/assets/Ellipse 55.png" alt="andrea piacuiado" />
+              <img src="/saas/assets/Ellipse 56.png" alt="italo-melo" />
+              <img src="/saas/assets/Ellipse 57.png" alt="stefan-stefancik" />
+              <img src="/saas/assets/Group 215.png" alt="play logo" />
+            </div>
+          </section>
 
-            <section class="right-upperbox">
-                <img src="/saas/assets/Group.png" alt="" />
-              <section class="getMessage">
-                <label for="email"> Email</label><br />
-                <input type="text" placeholder="Enter your email " />
-                <br />
-                <label for="email"> Message</label><br />
-                <input type="text" placeholder="What do you have to say " />
-                <br />
-                <button>Request Demo</button>
-                <p>or Start Free Trial</p>
-              </section>
+          <section class="right-upperbox">
+            <img src="/saas/assets/Group.png" alt="" />
+            <section class="getMessage">
+              <label for="email"> Email</label><br />
+              <input type="text" placeholder="Enter your email " />
+              <br />
+              <label for="email"> Message</label><br />
+              <input type="text" placeholder="What do you have to say " />
+              <br />
+              <button>Request Demo</button>
+              <p>or Start Free Trial</p>
             </section>
           </section>
-          <section class="reviewBottomSection">
-           <section class = "reviewBottom">
-              <section class="bottomLeft">
-                <h1> Biccas</h1>
-                <p> Get Started Anew try our product</p>
-                <img src="./assets/Group 224.png" alt="">
-              </section>
-              <section class="bottomRight"> 
-                <section class="subBottomRight">
-                  <h4> Suport</h4>
-                  <p>Help Centre</p>
-                  <p>Account information</p>
-                  <p>About</p>
-                  <p>Contact Us</p>
-                </section>
-                <section class="subBottomRight">
-                  <h4> Help And Solution</h4>
-                  <p>Talk to us support</p>
-                  <p>Supportdocs</p>
-                  <p>System status</p>
-                  <p>Covid Response</p>
-                </section>
-                <section class="subBottomRight">
-                  <h4> Product</h4>
-                  <p>Update</p>
-                  <p>Security</p>
-                  <p>Beta test</p>
-                  <p>Pricing Product</p>
-                </section>
-              </section>
-          </section>
-                <footer>
-                  <div> © 2022 Biccas Inc. Copyright and rights reserved</div>
-                  <div> <p>Terms and Condtions  Privacy Policy</p>
-                  </div>
-                </footer> 
         </section>
+
+        <section class="reviewBottom">
+          <section class="bottomLeft">
+            <h1>Biccas</h1>
+            <p>Get Started Anew try our product</p>
+            <img src="/saas/assets/Group 224.png" alt="" />
+          </section>
+          <section class="bottomRight">
+            <section class="subBottomRight">
+              <h4>Suport</h4>
+              <p>Help Centre</p>
+              <p>Account information</p>
+              <p>About</p>
+              <p>Contact Us</p>
+            </section>
+            <section class="subBottomRight">
+              <h4>Help And Solution</h4>
+              <p>Talk to us support</p>
+              <p>Supportdocs</p>
+              <p>System status</p>
+              <p>Covid Response</p>
+            </section>
+            <section class="subBottomRight">
+              <h4>Product</h4>
+              <p>Update</p>
+              <p>Security</p>
+              <p>Beta test</p>
+              <p>Pricing Product</p>
+            </section>
+          </section>
+        </section>
+        <footer>
+          <div>© 2022 Biccas Inc. Copyright and rights reserved</div>
+          <div><p>Terms and Condtions Privacy Policy</p></div>
+        </footer>
+      </section>
     </main>
   </body>
-  <footer></footer>
 </html>
